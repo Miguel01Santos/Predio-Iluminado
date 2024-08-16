@@ -58,8 +58,8 @@
     color: transparent;
 }
 
-.window, .window2, .window3{
-    background-color: rgb(198, 198, 26);
+.window, .window2, .window1{
+    background-color: rgb(255, 255, 0);
     height: 2vh;
     width: 50%;
     color: transparent;

@@ -3,4 +3,13 @@
     height: 15vh;
     width: 10%;
     border-radius: 50%;
+    box-shadow: -1px 0px 100px yellow;
+}
+
+.lune{
+    background-color: rgb(171, 198, 239);
+    height: 15vh;
+    width: 10%;
+    border-radius: 50%;
+    box-shadow: -1px 0px 100px rgb(171, 198, 239);   
 }

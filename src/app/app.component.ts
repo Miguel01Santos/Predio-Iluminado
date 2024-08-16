@@ -20,6 +20,9 @@ export class AppComponent {
     const foot = window.document.getElementById('footer');
     foot?.classList.add('footerNoite');
     foot?.classList.remove('footer');
+    const sun = window.document.getElementById('bol');
+    sun?.classList.add('lune');
+    sun?.classList.remove('sun')
 
     this.ceu = 'noite';
     this.day = false;
@@ -36,6 +39,9 @@ export class AppComponent {
     const foot = window.document.getElementById('footer');
     foot?.classList.add('footer');
     foot?.classList.remove('footerNoite');
+    const lune = window.document.getElementById('bol');
+    lune?.classList.add('sun');
+    lune?.classList.remove('lune')
 
     this.ceu = 'dia';
     this.day = false;
