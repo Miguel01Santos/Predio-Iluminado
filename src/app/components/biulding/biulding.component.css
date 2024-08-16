@@ -57,3 +57,10 @@
     width: 50%;
     color: transparent;
 }
+
+.window, .window2, .window3{
+    background-color: rgb(198, 198, 26);
+    height: 2vh;
+    width: 50%;
+    color: transparent;
+}

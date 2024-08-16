@@ -1,13 +1,24 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+
 <body class="body">
-    <header class="header">
-      <app-clouds class="cloud"></app-clouds>
+    <header class="dia" id="sky">
+      <app-clouds class="cloud" *ngIf="day"></app-clouds>
       <app-sun class="sun"></app-sun>
       <app-biulding class="biulding"></app-biulding>
+      <div class="navbar">
+        <i class="bi bi-brightness-low-fill" (click)="dia()"></i>
+        <i class="bi bi-cloud-sun-fill" (click)="nuvens()"></i>
+        <i class="bi bi-moon-fill" (click)="noite()"></i>
+        <i class="bi bi-moon-stars-fill" (click)="click()"></i>
+        <i class="bi bi-cloud-moon-fill" (click)="click()"></i> 
+        <i class="bi bi-cloud-snow-fill" (click)="click()"></i>
+        <i class="bi bi-cloud-haze-fill" (click)="click()"></i>
+        <i class="bi bi-stars" (click)="click()"></i>
+      </div>
     </header>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <app-street class="street"></app-street>
     </footer>
 </body>

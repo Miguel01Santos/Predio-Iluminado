@@ -6,16 +6,42 @@ import { Component } from '@angular/core';
   styleUrl: './biulding.component.css'
 })
 export class BiuldingComponent {
+  luz : boolean = true;
 
   click1(){
-    console.log('clicou')
+    if (this.luz === true){
+      const janelas = window.document.querySelectorAll('#windon');
+
+      janelas.forEach(janelas =>{
+        janelas.classList.add('window');
+        janelas.classList.remove('windon');
+      })
+      this.luz = false;
+    }else{
+      const janelas = window.document.querySelectorAll('#windon');
+
+      janelas.forEach(janelas =>{
+        janelas.classList.add('windon');
+        janelas.classList.remove('window');
+      })
+      this.luz = true;
+
+    }
   }
 
   click2(){
-    console.log('clicou')
+    if (this.luz === true){
+
+    }else{
+      
+    }
   }
 
   click3(){
-    console.log('clicou')
+    if (this.luz === true){
+
+    }else{
+      
+    }
   }
 }
