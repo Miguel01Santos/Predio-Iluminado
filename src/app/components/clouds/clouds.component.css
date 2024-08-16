@@ -1,0 +1,77 @@
+.body{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 500px;
+}
+
+.container{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cloud1, .cloud2, .cloud3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 8vh;
+    width: 8%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+}
+
+.cloud1{
+    left: 25%;
+}
+
+.cloud2{
+    left: 15%;
+}
+
+.cloud3{
+    left: 20%;
+}
+
+.cloud4, .cloud5, .cloud6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 8vh;
+    width: 8%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+}
+
+.cloud4{
+    left: 70%;
+}
+
+.cloud5{
+    left: 80%;
+}
+
+.cloud6{
+    left: 76%;
+}   

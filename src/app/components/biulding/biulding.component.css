@@ -1,0 +1,59 @@
+
+.biuld{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10%;
+}
+
+.biulding{
+    background-color: transparent;
+    height: 35vh;
+    width: 10%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+    .right{
+        background-color: rgb(26, 26, 38);
+        height: 100%;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .left{
+        background-color: rgb(26, 26, 38);
+        height: 100%;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .squaer{
+        background-color: rgb(40, 40, 58);
+        height: 30%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bi{
+            font-size: 30px;
+            cursor: pointer;
+        }
+        
+    }
+}
+
+.windon, .windon1, .windon2{
+    background-color: rgb(192, 192, 156);
+    height: 2vh;
+    width: 50%;
+    color: transparent;
+}
