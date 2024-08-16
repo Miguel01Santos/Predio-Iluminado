@@ -1,32 +1,77 @@
+@keyframes slides{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1000%);
+    }
+}
+
 .body{
     height: 5vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     gap: 500px;
+
+    .container{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+        position: absolute; /* Necessário para que o z-index seja aplicado */
+    }
+
+
+    .container2{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+        position: absolute; /* Necessário para que o z-index seja aplicado */
+    }
+
+
+    .container3{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+        position: absolute; /* Necessário para que o z-index seja aplicado */
+    }
+
+
+    .container4{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+        position: absolute; /* Necessário para que o z-index seja aplicado */
+    }
+
+
+
 }
 
-.container{
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    gap: 0px;
-    align-items: center;
-    justify-content: center;
-}
-
-.container2{
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    gap: 0px;
-    align-items: center;
-    justify-content: center;
-}
-
-.cloud1, .cloud2, .cloud3{
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6, .cloud7, .cloud8, .cloud9, .cloud10, .cloud11, .cloud12{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,41 +82,59 @@
     border-radius: 50%;
     padding: 5px;
     position: absolute;
+    z-index: 10; /* Certifique-se de que este valor seja menor do que o z-index do cabeçalho */
+    animation: 50s slides infinite linear;
+
 }
+
 
 .cloud1{
-    left: 25%;
-}
-
-.cloud2{
     left: 15%;
 }
 
-.cloud3{
+.cloud2{
     left: 20%;
 }
 
-.cloud4, .cloud5, .cloud6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 8vh;
-    width: 8%;
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
-    position: absolute;
+.cloud3{
+    left: 25%;
 }
 
+
+
 .cloud4{
-    left: 70%;
+    left: 60%;
 }
 
 .cloud5{
-    left: 80%;
+    left: 65%;
 }
 
 .cloud6{
-    left: 76%;
+    left: 70%;
 }   
+
+.cloud7{
+    left: 120%;
+}
+
+.cloud8{
+    left: 125%;
+}
+
+.cloud9{
+    left: 130%;
+}
+
+.cloud10{
+    left: 145%;
+}
+
+.cloud11{
+    left: 150%;
+}
+
+.cloud12{
+    left: 200%;
+}   
+
